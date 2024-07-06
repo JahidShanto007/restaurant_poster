@@ -19,6 +19,7 @@
     border-radius: 8px;
     background: rgb(82, 195, 3);
     border: none;
+    cursor: pointer;
 }
 #hero{
     height: 615px;
@@ -65,4 +66,55 @@
     text-align: center;
     opacity: 0.7;
     margin-bottom: 18px;
+}
+#card-box{
+    width: 884px;
+    margin: 100px auto; 
+}
+#card-box .info{
+
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Work Sans;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width: 250px;
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    border-radius: 8px;
+    padding: 10px 18px 10px 18px;
+    background: rgba(82, 195, 3, 0.15);
 }
